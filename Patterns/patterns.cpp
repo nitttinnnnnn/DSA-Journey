@@ -1,3 +1,5 @@
+// Patterns to build logic and improve loop understanding
+
 #include <iostream>
 using namespace std;
 
