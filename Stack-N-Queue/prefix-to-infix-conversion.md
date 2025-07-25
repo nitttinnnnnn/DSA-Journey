@@ -1,6 +1,6 @@
 # 🔃 Prefix to Infix Conversion in C++
 
-This C++ program converts a **prefix expression** (Polish Notation) into a **fully parenthesized infix expression** using a **stack**. It is helpful in understanding how expressions are evaluated in compilers and interpreters.
+This C++ program converts a **prefix expression** (Polish Notation) into a **fully parenthesized infix expression** using a **stack**. It is helpful in understanding how expressions are evaluated in compilers and interpreters. 
 
 ---
 
