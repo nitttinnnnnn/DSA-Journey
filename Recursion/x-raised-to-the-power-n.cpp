@@ -3,15 +3,25 @@
 class Solution {
 public:
     double myPow(double x, int n) {
+        long long power = n;
         double answer = 1;
-        for(int i=0; i<n; i++){
-            answer *= x;
+
+        if(power < 0){
+            power = -(power);
+        }
+        while(power > 0){
+            if(power%2 != 0){
+                answer = answer * x;
+                power--;
+            }
+            else{
+                x = x*x;
+                power = power / 2;
+            }
         }
         if(n < 0){
-            return (double) 1.00/answer;
+            answer = 1/answer;
         }
-        else{
-            return answer;
-        }   
+        return answer;
     }
 };
